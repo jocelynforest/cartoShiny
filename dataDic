@@ -1,0 +1,8 @@
+name;type;class;origin;use
+x;function;observable;server;Variable contenant les données géo
+cdata;list;reactiveValue;server;Informations sur la session du client
+mapToPlot;function;observable;server;Expression réactive qui sert à tracer la carte
+mapToDownloadCarto;function;srcref;server;Permet de télécharger la carte produite par Cartography
+mapToDownloadTmap;function;srcref;server;Permet de télécharger la carte produite par Tmap 
+exportSizeX;function;observable;server;Transformer la valeur de l'input$size en numeric pour exporter les données
+

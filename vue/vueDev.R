@@ -1,0 +1,18 @@
+vueDev = navbarMenu('Dev', icon = icon("wrench"),
+                    tabPanel('Info session', icon = icon("info-circle"),
+                             verbatimTextOutput('clientdataText')),
+                    tabPanel('Todo list', icon = icon("list"),
+                             includeMarkdown('./ressource/markdown/todo.md')),
+                    tabPanel('Dico de données', icon = icon("archive"),
+                             tableOutput('datadictionary')),
+                    tabPanel('Debug', icon = icon("bug"),
+                             verbatimTextOutput('debug')),
+                    tabPanel('Debug1',  icon = icon("bug"),
+                             tableOutput('debug1')),
+                    tabPanel('Debug2',  icon = icon("bug"),
+                             tableOutput('debug2')),
+                    tabPanel('Documentation', icon = icon("book"),
+                             includeMarkdown('./ressource/markdown/doc.md')),
+                    tabPanel('Méthodo', icon = icon("graduation-cap"),
+                             includeMarkdown('./ressource/markdown/methodo.md'))
+)
